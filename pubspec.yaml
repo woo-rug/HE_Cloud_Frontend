@@ -1,0 +1,42 @@
+name: he_cloud_frontend
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  dio: ^5.3.0           # HTTP 요청
+  provider: ^6.0.5      # 상태 관리
+  flutter_secure_storage: ^9.0.0 # 토큰 저장
+  ffi: ^2.1.4
+  path_provider: ^2.1.5
+  file_picker: ^6.1.1
+  argon2: ^1.0.1
+  encrypt: ^5.0.3
+  path: ^1.0.9
+  syncfusion_flutter_pdf: ^31.2.12
+  archive: ^4.0.7
+  xml: ^6.6.1
+  web_socket_channel: ^3.0.3
+ 
+  # UI 유틸리티
+  google_fonts: ^6.1.0  # 폰트
+  intl: ^0.18.1         # 날짜 포맷
+  animate_do: ^3.1.0    # 애니메이션 효과
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/libs/
+    - assets/model/
